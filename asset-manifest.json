@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/College-Website-React/static/css/main.d6d36397.css",
+    "main.js": "/College-Website-React/static/js/main.86213bc0.js",
+    "static/js/453.3e49419c.chunk.js": "/College-Website-React/static/js/453.3e49419c.chunk.js",
+    "static/media/college.jpg": "/College-Website-React/static/media/college.91811672bc002500d829.jpg",
+    "static/media/art-exhibition.jpg": "/College-Website-React/static/media/art-exhibition.d0794cacc1bbaaa17d30.jpg",
+    "static/media/sports-day.jpg": "/College-Website-React/static/media/sports-day.296892a6402f5c877c1b.jpg",
+    "static/media/science-fair.jpg": "/College-Website-React/static/media/science-fair.9c75e84b7cc200697080.jpg",
+    "static/media/tech-conference.jpg": "/College-Website-React/static/media/tech-conference.722276251a06bc81273b.jpg",
+    "index.html": "/College-Website-React/index.html",
+    "main.d6d36397.css.map": "/College-Website-React/static/css/main.d6d36397.css.map",
+    "main.86213bc0.js.map": "/College-Website-React/static/js/main.86213bc0.js.map",
+    "453.3e49419c.chunk.js.map": "/College-Website-React/static/js/453.3e49419c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6d36397.css",
+    "static/js/main.86213bc0.js"
+  ]
+}
