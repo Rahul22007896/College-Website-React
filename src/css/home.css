@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+}
+
+/* Home Container Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgb(63, 60, 60);
+  text-align: center;
+  background-image: url('../Images/college.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: slideIn 1s ease-in-out;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* About Container Styles */
+.about-container, .department-container, .events-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-title, .department-container h1, .events-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about-introduction, .about-text, .department-item, .department-table td, .department-table th, .event-card p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #444;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about-list, .department-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.about-list-item, .department-item {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 0.5rem 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.department-container, .events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.department-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.department-table th, .department-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.department-table th {
+  background-color: #f2f2f2;
+  font-size: 1.2rem;
+}
+
+.department-table td {
+  font-size: 1rem;
+}
+
+.department-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.department-table tr:hover {
+  background-color: #ddd;
+}
+
+.event-card {
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.event-card h2 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
