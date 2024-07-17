@@ -2,8 +2,6 @@
 
 Design and develop a modern, user-friendly website for Saveetha Engineering College using React. The website should cater to various audiences, including prospective students, current students, faculty, alumni, and parents. It should include essential sections like Home, About Us, Courses Offered, Events. Consider the integration of features such as a responsive design, a searchable course catalog, an event calendar, and news updates. The design should reflect the college's branding and color scheme, incorporating existing logos and visual elements. Additionally, plan for future integration with third-party services and ensure the website is optimized for both desktop and mobile users. Finally, ensure that the website aligns with the college's mission to inspire future innovators and leaders.
 
-For Example:https://kumaravel655.github.io/college
-## Output:https://manojvenaram.github.io/
 ## Code:
 ### JavaScript:
 #### HomePage.js
